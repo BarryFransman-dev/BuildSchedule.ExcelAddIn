@@ -234,6 +234,8 @@ namespace BuildSchedule.ExcelAddIn
             return firstWeekDay.AddDays(weekOfYear * 7);
         }
 
+
+
         //private object GetColVal(string colName, Range area, int row)
         //{
         //    var val = area.Find(colName, Type.Missing, XlFindLookIn.xlValues, XlLookAt.xlWhole, XlSearchOrder.xlByColumns, XlSearchDirection.xlNext, false, Type.Missing, Type.Missing);
